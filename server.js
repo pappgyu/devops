@@ -3,6 +3,6 @@ const app = express();
 
 app.use(express.static("public"));
 
-app.listen(3000, () => {
-    console.log("Fut: http://localhost:3000");
+app.listen(8080, () => {
+    console.log("Fut: http://localhost:8080s");
 });

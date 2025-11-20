@@ -32,7 +32,7 @@ Projekt push a main branch-el a repoba - egy másik gépen először fetch gomb 
 Git parancsok:
 git fetch --all  - ellenőrizzük a friss változatokat
 git branch -a - listázza a brencheket
-git switch -c docker origin/docker - 
+git switch -c docker origin/docker 
 git switch maim - vált a main branch-re 
 git status - megmutatja melyik brach-be állsz ill további információkat a commitokról
 git add . - mindent változást kijelöl a későbi feltöltéshez (vagy a "." helyett a readme.md fájlt csak)

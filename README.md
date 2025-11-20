@@ -28,3 +28,18 @@ A létrejöt projekt commitálása + leírás hozzáadása
 8. lépés 
 Projekt push a main branch-el a repoba - egy másik gépen először fetch gomb majd pull gomb lehuzom a repoból akár egy másik gépre
 (amennyiben talál frisseb változatot)
+
+Git parancsok:
+git fetch --all  - ellenőrizzük a friss változatokat
+git branch -a - listázza a brencheket
+git switch -c docker origin/docker - 
+git switch maim - vált a main branch-re 
+git status - megmutatja melyik brach-be állsz ill további információkat a commitokról
+git add . - mindent változást kijelöl a későbi feltöltéshez (vagy a "." helyett a readme.md fájlt csak)
+git commit -m "commit neve" 
+git push origin main - mai branch ágba pushol 
+
+
+Docker parancsok:
+docker build -t devops-1 . - docker image-t készít a teljes projekt kódból
+docker run -p 8080:8080 devops-1  - futtatás docker környezetben

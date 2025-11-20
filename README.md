@@ -28,3 +28,6 @@ A létrejöt projekt commitálása + leírás hozzáadása
 8. lépés 
 Projekt push a main branch-el a repoba - egy másik gépen először fetch gomb majd pull gomb lehuzom a repoból akár egy másik gépre
 (amennyiben talál frisseb változatot)
+git add . - mindent hozzáad a commitba 
+git commit -m "commit üzenet" - commitot készít
+git push - feltölti a repoba

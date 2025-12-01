@@ -4,5 +4,5 @@ const app = express();
 app.use(express.static("public"));
 
 app.listen(8080, () => {
-    console.log("Fut: http://localhost:8080s");
+    console.log("Fut: http://localhost:8080");
 });

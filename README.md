@@ -45,3 +45,6 @@ docker build -t devops-1 . - docker image-t készít a teljes projekt kódból
 docker run -p 8080:8080 devops-1  - futtatás docker környezetben
 
 
+
+
+
